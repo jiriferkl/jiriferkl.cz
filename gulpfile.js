@@ -2,7 +2,6 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var concat = require('gulp-concat');
 var minifyCss = require('gulp-minify-css');
-var uglify = require('gulp-uglify');
 var watch = require('gulp-watch');
 
 gulp.task('css', function () {
@@ -15,7 +14,6 @@ gulp.task('css', function () {
 
 gulp.task('js', function () {
 	return gulp.src('./static/js/*.js')
-		.pipe(uglify())
 		.pipe(concat('bundle.js'))
 		.pipe(gulp.dest('./static/dist'));
 });
