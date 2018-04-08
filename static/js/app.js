@@ -13,4 +13,8 @@ $(document).ready(function () {
 	$('.experience-years').text(function () {
 		return (new Date()).getFullYear() - 2015;
 	});
+
+	$('.age').text(function () {
+		return Math.floor(((new Date()) - (new Date('1996-10-24'))) / (365.25 * 24 * 3600 * 1000));
+	});
 });
