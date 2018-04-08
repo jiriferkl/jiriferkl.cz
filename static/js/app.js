@@ -9,4 +9,8 @@ $(document).ready(function () {
 			$(this).append('<i class="fa fa-star-o" aria-hidden="true"></i>');
 		}
 	});
+
+	$('.experience-years').text(function () {
+		return (new Date()).getFullYear() - 2015;
+	});
 });
