@@ -1,13 +1,13 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var concat = require('gulp-concat');
-var minifyCss = require('gulp-minify-css');
+var cleanCss = require('gulp-clean-css');
 var watch = require('gulp-watch');
 
 gulp.task('css', function () {
 	return gulp.src('./static/sass/*.sass')
 		.pipe(sass())
-		.pipe(minifyCss({compatibility: 'ie8'}))
+		.pipe(cleanCss({compatibility: 'ie8'}))
 		.pipe(concat('dist.css'))
 		.pipe(gulp.dest('./static/dist'));
 });
