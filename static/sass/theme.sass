@@ -6,9 +6,15 @@ $color: #2F3440
   font-weight: 400
   src: local("Ubuntu Regular"), local("Ubuntu-Regular"), url("../font/Ubuntu-R.ttf") format("truetype")
 
+html, body
+  height: 100%
+  margin: 0
+
 body
   font-family: "Ubuntu"
   background-color: #EDEDED
+  display: flex
+  flex-direction: column
 
 .container
   background-color: white
@@ -17,6 +23,9 @@ body
   margin-bottom: 50px
   padding-top: 30px
   padding-bottom: 30px
+
+footer
+  margin-top: auto
 
 footer, nav
   background-color: $color
@@ -35,8 +44,7 @@ footer, nav
     div
       text-align: center
     img
-      width: 50px !important
-      height: 50px !important
+      width: 150px !important
   .badge
     font-size: 16px
   p
