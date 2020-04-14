@@ -6,70 +6,27 @@
     <description>Recent content on Jiří Ferkl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Sep 2017 13:16:28 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2020 13:16:28 +0200</lastBuildDate>
     
 	<atom:link href="http://jiriferkl.cz/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Resume</title>
-      <link>http://jiriferkl.cz/resume/</link>
-      <pubDate>Tue, 26 Sep 2017 13:16:28 +0200</pubDate>
+      <title></title>
+      <link>http://jiriferkl.cz/</link>
+      <pubDate>Tue, 14 Apr 2020 13:16:28 +0200</pubDate>
       
-      <guid>http://jiriferkl.cz/resume/</guid>
-      <description>Hi! My name is Jiří Ferkl and I&#39;m 23 y.o.
-
-
-
-
-EDUCATION
-2012 - 2016
-
- Pardubice
-
-
-Secondary School Of Electrical Engineering - IT
-
-
-At primary school I realized that I love IT so when I had to choose
-what to do next, my choice was obvious.
-
-I learned about Java, C# and PHP. Soon I figured out what the framework was and wanted
-to write one myself.</description>
+      <guid>http://jiriferkl.cz/</guid>
+      <description> Jiří Ferkl   #php #nette #vuejs #javascript #es6 #docker #slightly devops    I&#39;m from Czech Republic and I have more then 4 years of professional experience with web development. Just check my CV. I&#39;m open for new challenges!           </description>
     </item>
     
     <item>
-      <title></title>
-      <link>http://jiriferkl.cz/</link>
-      <pubDate>Tue, 26 Sep 2017 13:03:27 +0200</pubDate>
+      <title>Resume</title>
+      <link>http://jiriferkl.cz/resume/</link>
+      <pubDate>Tue, 14 Apr 2020 13:16:28 +0200</pubDate>
       
-      <guid>http://jiriferkl.cz/</guid>
-      <description>
-Jiří Ferkl
-
-
-#php
-#nette
-#vuejs
-#javascript
-#es6
-#docker
-#slightly devops
-
-
-
-I&#39;m from Czech Republic and I have more then 4 years of professional experience with web
-development. Just check my CV. I&#39;m open for new challenges!
-
-
-
-
-
-
-
-
-
-</description>
+      <guid>http://jiriferkl.cz/resume/</guid>
+      <description>Hi! My name is Jiří Ferkl and I&#39;m 23 y.o.     EDUCATION 2012 - 2016   Pardubice   Secondary School Of Electrical Engineering - IT   At primary school I realized that I love IT so when I had to choose what to do next, my choice was obvious.  I learned about Java, C# and PHP. Soon I figured out what the framework was and wanted to write one myself.</description>
     </item>
     
   </channel>
