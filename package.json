@@ -10,7 +10,8 @@
   },
   "scripts": {
     "build": "webpack",
-    "dev": "hugo server"
+    "dev": "hugo server",
+    "prod": "chmod +x prodbuild.sh && ./prodbuild.sh"
   },
   "dependencies": {
     "bootstrap": "^5.0.0-beta1"
