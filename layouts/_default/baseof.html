@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Bootstrap required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Primary Meta Tags -->
+    <title>{{ .Site.Data.seo.title}}</title>
+    <meta name="title" content="{{ .Site.Data.seo.title}}">
+    <meta name="description" content="{{ .Site.Data.seo.description}}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ .Site.BaseURL }}">
+    <meta property="og:title" content="{{ .Site.Data.seo.title}}">
+    <meta property="og:description" content="{{ .Site.Data.seo.description}}">
+    <meta property="og:image" content="{{ .Site.BaseURL }}img/ogimage.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ .Site.BaseURL }}">
+    <meta property="twitter:title" content="{{ .Site.Data.seo.title}}">
+    <meta property="twitter:description" content="{{ .Site.Data.seo.description}}">
+    <meta property="twitter:image" content="{{ .Site.BaseURL }}img/ogimage.jpg">
+
+    <!-- Search engines -->
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="{{ .Site.Data.seo.author}}">
+
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/dist/style.css">
+</head>
+
+<body>
+
+{{ partial "nav.html"}}
+
+{{- block "main" . }}{{ end -}}
+
+{{ partial "footer.html"}}
+
+<script src="{{ .Site.BaseURL }}/dist/main.js"></script>
+
+<!-- Google Analytics -->
+<script>
+    window.ga = window.ga || function () {
+        (ga.q = ga.q || []).push(arguments)
+    };
+    ga.l = +new Date;
+    ga('create', 'UA-108278313-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+</body>
+
+</html>
