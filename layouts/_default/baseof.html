@@ -34,11 +34,17 @@
 
 <body>
 
-{{ partial "nav.html"}}
+<article class="vh-100">
+    <div class="d-flex flex-column h-100">
+        {{ partial "nav.html"}}
 
-{{- block "main" . }}{{ end -}}
+        <div class="mb-auto">
+            {{- block "main" . }}{{ end -}}
+        </div>
 
-{{ partial "footer.html"}}
+        {{ partial "footer.html"}}
+    </div>
+</article>
 
 <script src="{{ .Site.BaseURL }}/dist/main.js"></script>
 
