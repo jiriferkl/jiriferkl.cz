@@ -1,0 +1,42 @@
+{{ $json := getJSON (.Get 0) }}
+<div class="row">
+    <div class="col">
+        <h2>
+            {{ $json.title }}
+        </h2>
+        {{ range $json.data }}
+        <div class="row">
+            <div class="col-lg-2">
+                <div>
+                    {{ .years }}
+                </div>
+                <div>
+                    <i class="fas fa-map-marker-alt"></i> {{ .place }}
+                </div>
+            </div>
+            <div class="col-lg-10">
+                <div>
+                    {{ if isset . "url" }}
+                    <a target="_blank" href="{{ .url }}">{{ .title }}</a>
+                    {{ else }}
+                    {{ .title }}
+                    {{ end }}
+                </div>
+                <div>
+                    {{ range .description }}
+                    <p>{{ . }}</p>
+                    {{ end }}
+
+                    {{ if isset . "badge" }}
+                    <p>
+                        {{ range .badge }}
+                        <span class="badge bg-secondary">{{ . }}</span>
+                        {{ end }}
+                    </p>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
