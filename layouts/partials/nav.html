@@ -1,25 +1,46 @@
-<nav class="navbar navbar-expand-md navbar-light bg-light">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container-lg">
-        <a class="order-0 navbar-brand" href="{{.Site.BaseUrl}}/">Jiří Ferkl</a>
+        <a class="navbar-brand" href="{{.Site.BaseUrl}}/">Jiří Ferkl</a>
         <div class="order-md-1 order-last collapse navbar-collapse" id="menu">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav w-100">
                 <li class="nav-item">
                     <a class='nav-link' href="{{.Site.BaseUrl}}/resume">Resume</a>
                 </li>
+                <li class="d-md-none">
+                    <hr>
+                </li>
+                <li class="offset-md-8 offset-lg-9 offset-xl-10">
+                    <ul class="d-flex justify-content-around list-unstyled">
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/jiriferkl/" title="LinkedIn">
+                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://twitter.com/FerklJiri" title="Twitter">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://github.com/jiriferkl" title="Github">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://www.instagram.com/jiriferkl/" title="Instagram">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://www.facebook.com/jiri.ferkl" title="Facebook">
+                                <i class="fab fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </div>
-        <div class="order-2 d-flex flex-row justify-content-around align-items-center navbar-icon-links">
-            <a target="_blank" href="https://www.linkedin.com/in/jiriferkl/" title="LinkedIn">
-                <i class="fab fa-linkedin-in fa-2x" aria-hidden="true"></i>
-            </a>
-            <a target="_blank" href="https://twitter.com/FerklJiri" title="Twitter">
-                <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
-            </a>
-            <a target="_blank" href="https://github.com/jiriferkl" title="Github">
-                <i class="fab fa-github fa-2x" aria-hidden="true"></i>
-            </a>
-        </div>
-        <button class="order-3 navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="order-2 navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
     </div>

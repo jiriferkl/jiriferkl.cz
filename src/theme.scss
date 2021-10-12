@@ -39,21 +39,12 @@
 }
 
 footer {
-  * {
-    a {
-      color: $gray-500;
-
-      &:hover {
-        color: $gray-600;
-      }
-    }
-  }
-
   p {
+    color: $gray-500;
     a {
-      color: black;
+      color: $gray-700;
       text-decoration: none;
-      font-weight: 700;
+      font-weight: 600;
 
       &:hover {
         color: black;
