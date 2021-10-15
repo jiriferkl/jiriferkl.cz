@@ -1,293 +1,41 @@
 ---
 title: "Resume"
-date: 2021-10-12T18:16:28+02:00
+date: 2021-10-15T18:16:28+02:00
 draft: false
 ---
-<!--<div class="row resume">-->
-<!--    <div class="col-lg-12 text-center header-img">-->
-<!--        <img src="/img/profile_cv.jpg" class="rounded-circle">-->
-<!--    </div>-->
-<!--    <div class="col-lg-12 header text-center">-->
-<!--        <h1>Hi! My name is Jiří Ferkl and I'm <span class="age">23</span> y.o.</h1>-->
-<!--        <hr>-->
-<!--        <hr>-->
-<!--    </div>-->
-<!--    <div class="col-lg-8 experience">-->
-<!--        {{< resumeSection "/data/education.json" >}}-->
-<!--        &lt;!&ndash;EXPERIENCE&ndash;&gt;-->
-<!--        <div class="row">-->
-<!--            <div class="col-lg-12">-->
-<!--                <h2>EXPERIENCE</h2>-->
-<!--                <div class="row">-->
-<!--                    <div class="col-lg-2 text-center">-->
-<!--                        <div class="date">-->
-<!--                            2019 - now-->
-<!--                        </div>-->
-<!--                        <div class="place">-->
-<!--                            <i class="fa fa-map-marker" aria-hidden="true"></i> Pardubice-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-10">-->
-<!--                        <div class="title">-->
-<!--                            <a href="https://www.sanasport.cz/">Sanasport.cz</a>-->
-<!--                        </div>-->
-<!--                        <div class="description">-->
-<!--                            <p>-->
-<!--                                <span class="badge badge-light">Nette</span>-->
-<!--                                <span class="badge badge-light">Api</span>-->
-<!--                                <span class="badge badge-light">Improvements</span>-->
-<!--                                <span class="badge badge-light">Codestyle</span>-->
-<!--                            </p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="row">-->
-<!--                    <div class="col-lg-2 text-center">-->
-<!--                        <div class="date">-->
-<!--                            2018 - 2019-->
-<!--                        </div>-->
-<!--                        <div class="place">-->
-<!--                            <i class="fa fa-map-marker" aria-hidden="true"></i> Praha-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-10">-->
-<!--                        <div class="title">-->
-<!--                            <a href="https://www.mondayfactory.cz/">Monday Factory s.r.o.</a>-->
-<!--                        </div>-->
-<!--                        <div class="description">-->
-<!--                            <p>-->
-<!--                                At the beginning of 2018, I wanted to move on, so I found a new company.-->
-<!--                            </p>-->
-<!--                            <p>-->
-<!--                                For almost a year I worked with a large team on a comprehensive application. Its core-->
-<!--                                was built on RabbitMq, Redis, Websocket and <a href="https://reactphp.org/">ReactPHP</a> and great emphasis was placed on-->
-<!--                                safety.-->
-<!--                            </p>-->
-<!--                            <p>-->
-<!--                                Then I moved on to the next project. I was the head developer of a simple application-->
-<!--                                built on Nette and Dibi. I worked mainly on more complex programming, codereview and-->
-<!--                                merging branches. I also took care of planning work with the project manager and CTO.-->
-<!--                            </p>-->
-<!--                            <p>-->
-<!--                                <span class="badge badge-light">Head developer of small team</span>-->
-<!--                                <span class="badge badge-light">Rancher</span>-->
-<!--                                <span class="badge badge-light">Gitlab</span>-->
-<!--                                <span class="badge badge-light">Docker</span>-->
-<!--                                <span class="badge badge-light">DevOps</span>-->
-<!--                                <span class="badge badge-light">ReactPHP</span>-->
-<!--                                <span class="badge badge-light">Redis</span>-->
-<!--                                <span class="badge badge-light">Rabbit</span>-->
-<!--                                <span class="badge badge-light">Websocket</span>-->
-<!--                                <span class="badge badge-light">Sentry</span>-->
-<!--                                <span class="badge badge-light">Security</span>-->
-<!--                            </p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="row">-->
-<!--                    <div class="col-lg-2 text-center">-->
-<!--                        <div class="date">-->
-<!--                            2017 - 2018-->
-<!--                        </div>-->
-<!--                        <div class="place">-->
-<!--                            <i class="fa fa-map-marker" aria-hidden="true"></i> HK-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-10">-->
-<!--                        <div class="title">-->
-<!--                            <a href="https://beetfit.com/">Beetfit s.r.o.</a>-->
-<!--                        </div>-->
-<!--                        <div class="description">-->
-<!--                            <p>-->
-<!--                                My first "BIG DEAL" job. I worked under the supervision of <a href="https://f3l1x.io/">Milan-->
-<!--                                Šulc</a> and learned how to write better application with better architecture. I-->
-<!--                                improved my front-end and javascript knowledge. And finally I improved my Nette &-->
-<!--                                PHP knowledge.-->
-<!--                            </p>-->
-<!--                            <p>-->
-<!--                                <span class="badge badge-light">Vuejs</span>-->
-<!--                                <span class="badge badge-light">Gulp</span>-->
-<!--                                <span class="badge badge-light">Javascript</span>-->
-<!--                                <span class="badge badge-light">Nette</span>-->
-<!--                                <span class="badge badge-light">Gitlab</span>-->
-<!--                                <span class="badge badge-light">React</span>-->
-<!--                                <span class="badge badge-light">ES6</span>-->
-<!--                            </p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="row">-->
-<!--                    <div class="col-lg-2 text-center">-->
-<!--                        <div class="date">-->
-<!--                            2015 - 2017-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-10">-->
-<!--                        <div class="title">-->
-<!--                            Big private project-->
-<!--                        </div>-->
-<!--                        <div class="description">-->
-<!--                            <p>-->
-<!--                                I wanted to start a business with my friend. We had a good idea, we learned a lot of new-->
-<!--                                technologies, but we were very great perfectionists and somebody overtaken us.-->
-<!--                            </p>-->
-<!--                            <p>-->
-<!--                                The project was based on <a href="https://nette.org/">Nette</a>. We discovered a Docker-->
-<!--                                and created our first Docker image. The repository was hosted on Bitbucket. We found out-->
-<!--                                what Codesniffer, tests and CI were. At first we used Travis but then we subscribed for-->
-<!--                                Bitbucket Jira & Confluence and we started to use Bitbucket Pipelines. We learned how to-->
-<!--                                write Nette Extension and soon we had our own Packagist. Also we used some Symfony-->
-<!--                                packages like Validation and Console. The project itself was hosted on Amazon EC2.-->
-<!--                            </p>-->
-<!--                            <p>-->
-<!--                                <span class="badge badge-light">Nette</span>-->
-<!--                                <span class="badge badge-light">Docker</span>-->
-<!--                                <span class="badge badge-light">Codesniffer</span>-->
-<!--                                <span class="badge badge-light">Travis</span>-->
-<!--                                <span class="badge badge-light">Bitbucket Pipelines</span>-->
-<!--                                <span class="badge badge-light">Jira</span>-->
-<!--                                <span class="badge badge-light">Confluence</span>-->
-<!--                                <span class="badge badge-light">Amazon EC2</span>-->
-<!--                                <span class="badge badge-light">Symfony Console</span>-->
-<!--                                <span class="badge badge-light">Symfony Validation</span>-->
-<!--                                <span class="badge badge-light">SOLID</span>-->
-<!--                            </p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="row">-->
-<!--                    <div class="col-lg-2 text-center">-->
-<!--                        <div class="date">-->
-<!--                            2013 - 2015-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-10">-->
-<!--                        <div class="title">-->
-<!--                            Trying some new stuff-->
-<!--                        </div>-->
-<!--                        <div class="description">-->
-<!--                            <p>-->
-<!--                                This was a very experimental phase. I discovered new technologies and stuff that nobody-->
-<!--                                teached me at school.-->
-<!--                            </p>-->
-<!--                            <p>-->
-<!--                                <span class="badge badge-light">Git</span>-->
-<!--                                <span class="badge badge-light">Composer</span>-->
-<!--                                <span class="badge badge-light">Linux</span>-->
-<!--                                <span class="badge badge-light">Bash</span>-->
-<!--                                <span class="badge badge-light">ORM Doctrine</span>-->
-<!--                                <span class="badge badge-light">PhpStorm</span>-->
-<!--                            </p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="col-lg-4">-->
-<!--        &lt;!&ndash;CONTACT&ndash;&gt;-->
-<!--        <div class="row contact">-->
-<!--            <div class="col-lg-12">-->
-<!--                <h2>CONTACT</h2>-->
-<!--                <div class="row">-->
-<!--                    <div class="col-lg-2">-->
-<!--                        <i class="fa fa-envelope" aria-hidden="true"></i>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-10">-->
-<!--                        <h3>Email</h3>-->
-<!--                        <a href="mailto:jiri.ferkl@protonmail.com">jiri.ferkl@protonmail.com</a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="row">-->
-<!--                    <div class="col-lg-2">-->
-<!--                        <i class="fa fa-envelope" aria-hidden="true"></i>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-10">-->
-<!--                        <h3>Email</h3>-->
-<!--                        <a href="mailto:jiri.ferkl@gmail.com">jiri.ferkl@gmail.com</a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="row">-->
-<!--                    <div class="col-lg-2">-->
-<!--                        <i class="fa fa-twitter" aria-hidden="true"></i>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-10">-->
-<!--                        <h3>Twitter</h3>-->
-<!--                        <a href="https://twitter.com/FerklJiri">https://twitter.com/FerklJiri</a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="row">-->
-<!--                    <div class="col-lg-2">-->
-<!--                        <i class="fa fa-github" aria-hidden="true"></i>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-10">-->
-<!--                        <h3>Github</h3>-->
-<!--                        <a href="https://github.com/jiriferkl">https://github.com/jiriferkl</a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="row">-->
-<!--                    <div class="col-lg-2">-->
-<!--                        <i class="fa fa-facebook" aria-hidden="true"></i>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-10">-->
-<!--                        <h3>Facebook</h3>-->
-<!--                        <a href="https://www.facebook.com/jiri.ferkl">https://www.facebook.com/jiri.ferkl</a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="row">-->
-<!--                    <div class="col-lg-2">-->
-<!--                        <i class="fa fa-instagram" aria-hidden="true"></i>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-10">-->
-<!--                        <h3>Instagram</h3>-->
-<!--                        <a href="https://www.instagram.com/jiriferkl/">https://www.instagram.com/jiriferkl/</a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        &lt;!&ndash;LANGUAGES&ndash;&gt;-->
-<!--        <div class="row languages">-->
-<!--            <div class="col-lg-12">-->
-<!--                <h2>LANGUAGES</h2>-->
-<!--                <div class="row">-->
-<!--                    <div class="col-lg-2">-->
-<!--                        Czech-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-10">-->
-<!--                        <div class="stars pull-right" data-value="5"></div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <hr>-->
-<!--                <div class="row">-->
-<!--                    <div class="col-lg-2">-->
-<!--                        English-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-10">-->
-<!--                        <div title="B2" class="stars pull-right" data-value="4"></div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        &lt;!&ndash;OTHERS&ndash;&gt;-->
-<!--        <div class="row others">-->
-<!--            <div class="col-lg-12">-->
-<!--                <h2>OTHERS</h2>-->
-<!--                <div class="row">-->
-<!--                    <div class="col-lg-12">-->
-<!--                        <span class="badge badge-dark">Driving licence B</span>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-
-<div class="container mt-4">
+<div class="container">
     <div class="row">
-        <div class="col d-flex justify-content-center">
-            <div class="d-flex justify-content-between align-items-center alert alert-warning p-3" role="alert">
-                <i class="fas fa-brush fa-2x me-3"></i>
-                <p class="mb-0">Hi! This section is currently being redesigned. In the meantime feel free to <a target="_blank" href="https://www.linkedin.com/in/jiriferkl/" class="alert-link">visit my LinkedIn</a>.</p>
+        <div class="col-12 col-lg-11 my-4 p-3 shadow-lg bg-body rounded m-auto">
+            <div class="row">
+                <div class="col-md-4 text-center border-end border-light border-2">
+                    <h1 class="display-5">Jiří Ferkl</h1>
+                    <h2 class="display-6"><span class="age">25</span> y.o.</h2>
+                    <div class="col-12 border-top border-light border-2 pt-3 mt-3">
+                        {{< contactUnit "fas fa-envelope" "mailto:jiri.ferkl@protonmail.com" "jiri.ferkl@protonmail.com">}}
+                        {{< contactUnit "fas fa-envelope" "mailto:jiri.ferkl@gmail.com" "jiri.ferkl@gmail.com" >}}
+                        {{< contactUnit "fab fa-linkedin-in" "https://www.linkedin.com/in/jiriferkl/" "jiriferkl">}}
+                        {{< contactUnit "fab fa-twitter" "https://twitter.com/FerklJiri" "FerklJiri" >}}
+                        {{< contactUnit "fab fa-github" "https://github.com/jiriferkl" "jiriferkl" >}}
+                        {{< contactUnit "fab fa-facebook" "https://www.facebook.com/jiri.ferkl" "jiri.ferkl" >}}
+                        {{< contactUnit "fab fa-instagram" "https://www.instagram.com/jiriferkl/" "jiriferkl" >}}
+                    </div>
+                    <div class="d-flex flex-column border-top border-light border-2 pt-3">
+                        {{< languageUnit "Czech" "5" >}}
+                        {{< languageUnit "English" "4" >}}
+                    </div>
+                    <div class="d-flex justify-content-evenly border-top border-light border-2 my-3 pt-3">
+                        {{< badge "Driving licence B" >}}
+                        {{< badge "Tennis" >}}
+                    </div>
+                </div>
+                <div class="col-md-8 mt-3 pt-3">
+                    <div class="col-12">
+                        {{< resumeSection "/data/experience.json" >}}
+                    </div>
+                    <div class="col-12">
+                        {{< resumeSection "/data/education.json" >}}
+                    </div>
+                </div>
             </div>
         </div>
     </div>
