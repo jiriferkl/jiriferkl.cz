@@ -1,7 +1,7 @@
 <template>
-  <div class="min-h-screen">
+  <div class="min-h-screen flex flex-col">
     <NavBar />
-    <NuxtPage />
+    <NuxtPage class="grow" />
     <div id="backgroundDivider"></div>
   </div>
 </template>
