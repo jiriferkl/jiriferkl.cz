@@ -8,7 +8,7 @@
 
 <style>
 body {
-  background: url("mountains.svg") no-repeat center bottom;
+  background: url("/mountains.svg") no-repeat center bottom;
   background-size: auto 50vh;
 }
 
