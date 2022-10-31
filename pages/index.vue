@@ -13,29 +13,29 @@
         <div class="block md:hidden absolute w-screen left-0">
           <div class="grid grid-cols-5 gap-4 place-items-center pt-4">
             <div class="col-span-1">
-              <img class="h-5" src="technologies/vuejs.png">
+              <img class="h-5" src="/technologies/vuejs.png">
             </div>
             <div class="col-span-1">
-              <img class="h-5" src="technologies/nuxt.svg">
+              <img class="h-5" src="/technologies/nuxt.svg">
             </div>
             <div class="col-span-1">
-              <img class="h-5" src="technologies/reactjs.svg">
+              <img class="h-5" src="/technologies/reactjs.svg">
             </div>
             <div class="col-span-1">
-              <img class="h-5" src="technologies/graphql.svg">
+              <img class="h-5" src="/technologies/graphql.svg">
             </div>
             <div class="col-span-1">
-              <img class="h-5" src="technologies/php.svg">
+              <img class="h-5" src="/technologies/php.svg">
             </div>
             <div class="col-span-1"></div>
             <div class="col-span-1">
-              <img class="h-5" src="technologies/docker.png">
+              <img class="h-5" src="/technologies/docker.png">
             </div>
             <div class="col-span-1">
-              <img class="h-5" src="technologies/nette.png">
+              <img class="h-5" src="/technologies/nette.png">
             </div>
             <div class="col-span-1">
-              <img class="h-5" src="technologies/mysql.png">
+              <img class="h-5" src="/technologies/mysql.png">
             </div>
             <div class="col-span-1"></div>
           </div>
@@ -47,44 +47,44 @@
         <!-- row -->
         <div class="col-span-3"></div>
         <div class="col-span-1">
-          <img class="h-10" src="technologies/vuejs.png">
+          <img class="h-10" src="/technologies/vuejs.png">
         </div>
         <div class="col-span-2"></div>
         <div class="col-span-1">
-          <img class="h-10" src="technologies/docker.png">
+          <img class="h-10" src="/technologies/docker.png">
         </div>
         <div class="col-span-3"></div>
 
         <!-- row -->
         <div class="col-span-1"></div>
         <div class="col-span-1">
-          <img class="h-10" src="technologies/nuxt.svg">
+          <img class="h-10" src="/technologies/nuxt.svg">
         </div>
         <div class="col-span-6"></div>
         <div class="col-span-1">
-          <img class="h-10" src="technologies/php.svg">
+          <img class="h-10" src="/technologies/php.svg">
         </div>
         <div class="col-span-1"></div>
 
         <!-- row -->
         <div class="col-span-2 mt-8"></div>
         <div class="col-span-1 mt-8">
-          <img class="h-10" src="technologies/reactjs.svg">
+          <img class="h-10" src="/technologies/reactjs.svg">
         </div>
         <div class="col-span-4 mt-8"></div>
         <div class="col-span-1 mt-8">
-          <img class="h-10" src="technologies/nette.png">
+          <img class="h-10" src="/technologies/nette.png">
         </div>
         <div class="col-span-2 mt-8"></div>
 
         <!-- row -->
         <div class="col-span-3"></div>
         <div class="col-span-1">
-          <img class="h-10" src="technologies/graphql.svg">
+          <img class="h-10" src="/technologies/graphql.svg">
         </div>
         <div class="col-span-2"></div>
         <div class="col-span-1">
-          <img class="h-10" src="technologies/mysql.png">
+          <img class="h-10" src="/technologies/mysql.png">
         </div>
         <div class="col-span-3"></div>
       </div>
