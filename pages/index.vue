@@ -3,7 +3,7 @@
     <div class="flex flex-col items-center p-2 z-10">
       <h1 class="text-4xl mb-3">Jiří Ferkl</h1>
       <h2 class="text-3xl mb-3">Full-stack web developer</h2>
-      <p class="text-xl text-center font-light">Build your next application with me! I have more then 7 years of professional experience with web development.</p>
+      <p class="text-xl text-center font-light">Build your next application with me! I have more then {{ getExperienceYears() }} years of professional experience with web development.</p>
       <NuxtLink class="bg-blue-600 hover:bg-blue-500 text-white px-5 py-1.5 rounded-lg mt-6" to="/resume">See my CV!</NuxtLink>
       <span class="my-1">or</span>
       <div>
@@ -91,3 +91,13 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    getExperienceYears() {
+      return (new Date()).getFullYear() - 2015;
+    }
+  }
+}
+</script>
