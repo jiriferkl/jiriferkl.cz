@@ -1,22 +1,21 @@
 {
-  "name": "jiriferkl.cz",
-  "version": "2.1.0",
-  "devDependencies": {
-    "css-loader": "^6.4.0",
-    "mini-css-extract-plugin": "^2.4.2",
-    "sass": "^1.32.4",
-    "sass-loader": "^12.2.0",
-    "webpack": "^5.15.0",
-    "webpack-cli": "^4.3.1"
-  },
+  "private": true,
   "scripts": {
-    "build": "webpack",
-    "dev": "hugo server",
-    "prod": "chmod +x prodbuild.sh && ./prodbuild.sh"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^5.3.2",
+    "nuxt": "3.0.0-rc.8"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.2",
-    "@popperjs/core": "^2.6.0",
-    "bootstrap": "^5.0.0-beta1"
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/vue-fontawesome": "^3.0.1"
   }
 }
