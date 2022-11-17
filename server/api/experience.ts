@@ -8,7 +8,7 @@ export default defineEventHandler((event) => {
             "company": "Sanasport.cz",
             "description": [],
             "badges": [],
-            "logo": "companies/sanasport.svg"
+            "logo": "/companies/sanasport.svg"
         },
         {
             "position": "Full-stack web developer",
@@ -24,7 +24,7 @@ export default defineEventHandler((event) => {
                 "Jest",
                 "AWS"
             ],
-            "logo": "companies/scuk.svg"
+            "logo": "/companies/scuk.svg"
         },
         {
             "position": "Full-stack web developer",
@@ -39,7 +39,7 @@ export default defineEventHandler((event) => {
                 "Improvements",
                 "Codestyle"
             ],
-            "logo": "companies/sanasport.svg"
+            "logo": "/companies/sanasport.svg"
         },
         {
             "position": "Back-end developer",
@@ -65,7 +65,7 @@ export default defineEventHandler((event) => {
                 "Sentry",
                 "Security"
             ],
-            "logo": "companies/mondayfactory.svg"
+            "logo": "/companies/mondayfactory.svg"
         },
         {
             "position": "Full-stack web developer",
@@ -85,7 +85,7 @@ export default defineEventHandler((event) => {
                 "React",
                 "ES6"
             ],
-            "logo": "companies/beetfit.svg"
+            "logo": "/companies/beetfit.svg"
         },
         {
             "position": "Back-end developer",
