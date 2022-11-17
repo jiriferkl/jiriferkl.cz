@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4">
+  <div class="p-4 z-10">
     <div class="flex flex-row justify-between items-center mb-1">
       <NuxtLink to="/"><img src="/logo.svg" alt="logo" class="h-6"></NuxtLink>
       <Nav class="hidden sm:block"/>
