@@ -1,5 +1,6 @@
 <template>
-  <div class="container mx-auto max-w-6xl flex flex-col-reverse lg:flex-row border">
+  <div id="resumeForPrint" class="container mx-auto max-w-6xl flex flex-col-reverse lg:flex-row border print:flex-row relative">
+    <slot name="top"></slot>
     <div class="lg:w-1/4 bg-slate-800 text-white p-6">
       <div class="flex justify-center mt-5">
         <ResumeImage />
@@ -64,7 +65,7 @@
         <h2 class="text-2xl m-3 border-b-2 border-black pb-0.5">Experience</h2>
         <ResumeCard
             v-for="item in experience"
-            :logo="item.logo ?? 'companies/general.svg'"
+            :logo="item.logo ?? '/companies/general.svg'"
             :position="item.position"
             :company="item.company"
             :years="item.years"
