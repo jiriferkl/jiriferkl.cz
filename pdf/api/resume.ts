@@ -27,6 +27,19 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     };
 
     try {
+        await chromium.font('../fonts/segoeui.ttf');
+        await chromium.font('../fonts/segoeuib.ttf');
+        await chromium.font('../fonts/segoeuii.ttf');
+        await chromium.font('../fonts/segoeuil.ttf');
+        await chromium.font('../fonts/segoeuisl.ttf');
+        await chromium.font('../fonts/segoeuiz.ttf');
+        await chromium.font('../fonts/seguibl.ttf');
+        await chromium.font('../fonts/seguibli.ttf');
+        await chromium.font('../fonts/seguili.ttf');
+        await chromium.font('../fonts/seguisb.ttf');
+        await chromium.font('../fonts/seguisbi.ttf');
+        await chromium.font('../fonts/seguisli.ttf');
+
         if (!isDev()) {
             browser = await puppeteerCore.launch(options);
         } else {
