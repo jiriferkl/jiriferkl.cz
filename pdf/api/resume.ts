@@ -3,8 +3,8 @@ import puppeteer from "puppeteer-core";
 import chromium from "chrome-aws-lambda";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-    const url: any = process.env.RESUME_URL;
-    if (!(url instanceof String)) {
+    const url: String = String(process.env.RESUME_URL);
+    if (url === '') {
         throw Error('Required env is not set');
     }
 
