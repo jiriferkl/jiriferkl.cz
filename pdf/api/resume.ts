@@ -54,6 +54,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         });
 
         res.statusCode = 200;
+        res.setHeader('Cache-Control', 'max-age=0, s-maxage=86400');
         res.setHeader("Content-Type", `application/pdf`);
         res.end(pdf, 'binary');
     } catch (e: any) {
