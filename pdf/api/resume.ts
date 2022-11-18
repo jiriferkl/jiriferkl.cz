@@ -30,6 +30,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     try {
         await chromium.font(__dirname + '/../fonts/segoeui.ttf');
+        await chromium.font(__dirname + '/../fonts/segoeuib.ttf');
+        await chromium.font(__dirname + '/../fonts/segoeuil.ttf');
+        await chromium.font(__dirname + '/../fonts/seguisb.ttf');
 
         if (!isDev()) {
             browser = await puppeteerCore.launch(options);
