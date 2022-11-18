@@ -4,6 +4,7 @@ import chromium from "chrome-aws-lambda";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
     let url: any = process.env.VERCEL_URL;
+    console.log(url);
     if (!(url instanceof String)) {
         throw Error('Required env is not set');
     }
