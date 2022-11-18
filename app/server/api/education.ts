@@ -10,7 +10,7 @@ export default defineEventHandler((event) => {
                 "After the course I wanted to keep studying but also I wanted to have enough time for my work. So I studied IT remotely, but it didn't last long. I was pretty disappointed about it so instead of studying I decided to work full-time."
             ],
             "badges": [],
-            "logo": "schools/slu.jpg"
+            "logo": "/schools/slu.jpg"
         },
         {
             "years": "2016 - 2017",
@@ -22,7 +22,7 @@ export default defineEventHandler((event) => {
                 "The course ended with a state exam."
             ],
             "badges": [],
-            "logo": "schools/oapce.svg"
+            "logo": "/schools/oapce.svg"
         },
         {
             "years": "2012 - 2016",
@@ -43,7 +43,7 @@ export default defineEventHandler((event) => {
                 "Javascript",
                 "MySQL"
             ],
-            "logo": "schools/spse.png"
+            "logo": "/schools/spse.png"
         }
     ]
 })
