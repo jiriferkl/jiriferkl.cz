@@ -3,10 +3,12 @@ import puppeteer from "puppeteer-core";
 import chromium from "chrome-aws-lambda";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-    const url: any = process.env.RESUME_URL;
+    let url: any = process.env.VERCEL_URL;
     if (!(url instanceof String)) {
         throw Error('Required env is not set');
     }
+
+    url += '/resume/print';
 
     let browser = null;
     let page = null;
