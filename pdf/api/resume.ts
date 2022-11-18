@@ -13,6 +13,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         throw Error('Required env is not set');
     }
 
+    console.log(__dirname)
+    console.log(process.cwd())
     let browser = null;
     let page = null;
 
