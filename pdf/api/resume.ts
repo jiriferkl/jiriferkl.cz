@@ -29,7 +29,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     };
 
     try {
-        await chromium.font('/fonts/segoeui.ttf');
+        await chromium.font(__dirname + '/../fonts/segoeui.ttf');
 
         if (!isDev()) {
             browser = await puppeteerCore.launch(options);
