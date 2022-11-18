@@ -27,6 +27,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     };
 
     try {
+        await chromium.font(__dirname + '/../fonts/segoeui.ttf');
+        await chromium.font(__dirname + '/../fonts/segoeuib.ttf');
+        await chromium.font(__dirname + '/../fonts/segoeuil.ttf');
+        await chromium.font(__dirname + '/../fonts/seguisb.ttf');
+
         if (!isDev()) {
             browser = await puppeteerCore.launch(options);
         } else {
@@ -45,10 +50,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         const pdf = await page.pdf({
             printBackground: true,
             width: box.width,
-            height: box.height - 79,
+            height: box.height - (isDev() ? 79 : 19),
         });
 
         res.statusCode = 200;
+        res.setHeader('Cache-Control', 'max-age=0, s-maxage=2678400');
         res.setHeader("Content-Type", `application/pdf`);
         res.end(pdf, 'binary');
     } catch (e: any) {

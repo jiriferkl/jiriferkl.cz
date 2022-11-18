@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/resume.ts": {
+      "includeFiles": "fonts/**"
+    }
+  },
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/api/resume"
+    }
+  ]
+}
