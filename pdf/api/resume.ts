@@ -21,7 +21,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const options = {
         defaultViewport: {
             width: 1920,
-            height: 1080,
+            height: 1200,
         },
         args: chromium.args,
         headless: chromium.headless,
