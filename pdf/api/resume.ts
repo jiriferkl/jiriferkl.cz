@@ -21,7 +21,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const options = {
         defaultViewport: {
             width: 1920,
-            height: 1200,
+            height: 1080,
         },
         args: chromium.args,
         headless: chromium.headless,
@@ -52,7 +52,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         const pdf = await page.pdf({
             printBackground: true,
             width: box.width,
-            height: box.height - 79,
+            height: box.height - (isDev() ? 79 : 75),
         });
 
         res.statusCode = 200;
