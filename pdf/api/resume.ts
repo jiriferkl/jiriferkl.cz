@@ -52,7 +52,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         const pdf = await page.pdf({
             printBackground: true,
             width: box.width,
-            height: box.height - (isDev() ? 79 : 0),
+            height: box.height - (isDev() ? 79 : 34),
         });
 
         res.statusCode = 200;
