@@ -1,6 +1,11 @@
 import {VercelRequest, VercelResponse} from '@vercel/node';
-import puppeteer from "puppeteer-core";
+import puppeteerCore from "puppeteer-core";
+import puppeteerDev from "puppeteer";
 import chromium from "chrome-aws-lambda";
+
+function isDev(): boolean {
+    return process.env.NOW_REGION === undefined || process.env.NOW_REGION === 'dev1';
+}
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
     const url: String = String(process.env.RESUME_URL);
@@ -11,16 +16,25 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     let browser = null;
     let page = null;
 
+    const options = {
+        defaultViewport: {
+            width: 1920,
+            height: 1080,
+        },
+        args: chromium.args,
+        headless: chromium.headless,
+        executablePath: await chromium.executablePath,
+    };
+
     try {
-        browser = await puppeteer.launch({
-            defaultViewport: {
-                width: 1920,
-                height: 1080,
-            },
-            args: chromium.args,
-            headless: chromium.headless,
-            executablePath: await chromium.executablePath,
-        });
+        if (!isDev()) {
+            browser = await puppeteerCore.launch(options);
+        } else {
+            browser = await puppeteerDev.launch({
+                ...options,
+                ...{headless: true},
+            });
+        }
 
         page = await browser.newPage();
         await page.goto(url, {waitUntil: 'networkidle0'});
