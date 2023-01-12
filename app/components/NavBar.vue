@@ -29,7 +29,7 @@ export default {
 
 .v-enter-to,
 .v-leave-from{
-  max-height: 96px;
+  max-height: 120px;
 }
 
 .v-enter-from,
