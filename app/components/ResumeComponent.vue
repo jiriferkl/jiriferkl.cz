@@ -22,6 +22,18 @@
           {{ core }}
         </div>
       </div>
+      <h3 class="ml-1 mt-5 mb-2 font-bold border-b pb-1">Secondary backend</h3>
+      <div class="ml-1 flex flex-wrap">
+        <div v-for="(secondary, index) in secondarySkillsBackend" :key="index" class="mr-2">
+          {{ secondary }}
+        </div>
+      </div>
+      <h3 class="ml-1 mt-5 mb-2 font-bold border-b pb-1">Secondary frontend</h3>
+      <div class="ml-1 flex flex-wrap">
+        <div v-for="(secondary, index) in secondarySkillsFrontend" :key="index" class="mr-2">
+          {{ secondary }}
+        </div>
+      </div>
       <h3 class="ml-1 mt-5 mb-2 font-bold border-b pb-1">Languages</h3>
       <div class="flex flex-col">
         <div v-for="(language, index) in languages" :key="index" class="flex ml-1">
@@ -126,8 +138,24 @@ export default defineNuxtComponent({
         'MySQL',
         'Docker',
         'JS',
-        'Vuejs',
+        'Vue.js',
         'React',
+      ],
+      secondarySkillsBackend: [
+        'GraphQL',
+        'RabbitMQ',
+        'Redis',
+        'Elasticsearch',
+        'Symfony',
+        'Nginx',
+        'Websocket',
+      ],
+      secondarySkillsFrontend: [
+        'Tailwindcss',
+        'Nuxt',
+        'Webpack',
+        'Gulp',
+        'Bootstrap',
       ],
       languages: [
         {

@@ -6,8 +6,12 @@ export default defineEventHandler((event) => {
             "place": "Pardubice",
             "url": "https://www.sanasport.cz/",
             "company": "Sanasport.cz",
-            "description": [],
-            "badges": [],
+            "description": [
+                "After Covid, I re-established cooperation with Sanasport. My tasks involved, for example, modification of warehouse processes, implementation of a payment gateway (including automatic refunds and querying of payment status), analysis of a foreign marketplace for resale of goods, estimation of delivery time or connection to an external search engine.",
+            ],
+            "badges": [
+                "Nette",
+            ],
             "logo": "/companies/sanasport.svg"
         },
         {
@@ -16,13 +20,13 @@ export default defineEventHandler((event) => {
             "place": "Praha",
             "url": "https://www.scuk.cz/",
             "company": "Scuk.cz",
-            "description": [],
+            "description": [
+                "Scuk is an online farmer's marketplace. Here I used GraphQL for the first time. Most of the work was creating React.js components along with the backend to them. The backend was built on Symfony. I was also involved in writing integration tests, code reviews, fixing bugs and connecting external APIs.",
+            ],
             "badges": [
+                "Symfony",
                 "GraphQL",
                 "React",
-                "Symfony",
-                "Jest",
-                "AWS"
             ],
             "logo": "/companies/scuk.svg"
         },
@@ -32,12 +36,11 @@ export default defineEventHandler((event) => {
             "place": "Pardubice",
             "url": "https://www.sanasport.cz/",
             "company": "Sanasport.cz",
-            "description": [],
+            "description": [
+                "Sanasport is an e-shop with sporting goods. Backend was built on Nette and Symfony components. I was involved in connecting B2B partners, creating new modules for customer support, updating libraries and getting rid of legacy code. Because of Covid, we had to temporarily stop working together."
+            ],
             "badges": [
                 "Nette",
-                "Api",
-                "Improvements",
-                "Codestyle"
             ],
             "logo": "/companies/sanasport.svg"
         },
@@ -53,17 +56,9 @@ export default defineEventHandler((event) => {
                 "Then I moved on to the next project. I was the head developer of a simple application built on Nette and Dibi. I worked mainly on more complex programming, codereview and merging branches. I also took care of planning work with the project manager and CTO."
             ],
             "badges": [
-                "Head developer of small team",
-                "Rancher",
-                "Gitlab",
-                "Docker",
-                "DevOps",
+                "Nette",
                 "ReactPHP",
-                "Redis",
-                "Rabbit",
                 "Websocket",
-                "Sentry",
-                "Security"
             ],
             "logo": "/companies/mondayfactory.svg"
         },
@@ -74,16 +69,12 @@ export default defineEventHandler((event) => {
             "url": "https://beetfit.com/",
             "company": "Beetfit s.r.o.",
             "description": [
-                "My first \"BIG DEAL\" job. I worked under the supervision of <a href=\"https://f3l1x.io/\">Milan Šulc</a> and learned how to write better application with better architecture. I improved my front-end and javascript knowledge. And finally I improved my Nette & PHP knowledge."
+                "My first \"BIG DEAL\" job. I worked under the supervision of <a href=\"https://f3l1x.io/\">Milan Šulc</a> and learned how to write better application with better architecture. I improved my front-end and javascript knowledge. And finally I improved my Nette & PHP knowledge. This is also where I first encountered Vue.js."
             ],
             "badges": [
-                "Vuejs",
-                "Gulp",
-                "Javascript",
                 "Nette",
-                "Gitlab",
+                "Vue.js",
                 "React",
-                "ES6"
             ],
             "logo": "/companies/beetfit.svg"
         },
