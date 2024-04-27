@@ -20,7 +20,7 @@ async function generateResume(url) {
         printBackground: true,
         width: box.width,
         height: box.height - 21,
-        path: 'resume.pdf'
+        path: '../app/public/resume.pdf'
     });
 
     await page.close();

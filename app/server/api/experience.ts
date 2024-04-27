@@ -1,6 +1,20 @@
 export default defineEventHandler((event) => {
     return [
         {
+            "position": "Back-end developer",
+            "years": "2.2023 - now",
+            "place": "Praha",
+            "url": "https://www.mailstep.cz/",
+            "company": "Mailstep",
+            "description": [],
+            "badges": [
+                "Symfony",
+                "GraphQL",
+                "PostgreSQL",
+            ],
+            "logo": "/companies/mailstep.svg"
+        },
+        {
             "position": "Full-stack web developer",
             "years": "1.2021 - 8.2022",
             "place": "Pardubice",
