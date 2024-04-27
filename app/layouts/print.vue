@@ -3,11 +3,13 @@
 </template>
 
 <script>
-export default {
-  head: {
-    bodyAttrs: {
-      class: ''
+export default defineNuxtComponent ({
+  head() {
+    return {
+      bodyAttrs: {
+        class: ''
+      }
     }
   }
-};
+});
 </script>

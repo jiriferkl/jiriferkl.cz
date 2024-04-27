@@ -7,11 +7,13 @@
 </template>
 
 <script>
-export default {
-  head: {
-    bodyAttrs: {
-      class: 'body-background'
+export default defineNuxtComponent ({
+  head() {
+    return {
+      bodyAttrs: {
+        class: 'body-background'
+      }
     }
   }
-};
+});
 </script>
