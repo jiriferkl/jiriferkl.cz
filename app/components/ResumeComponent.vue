@@ -118,8 +118,8 @@ export default defineNuxtComponent({
       contactInfo: [
         {
           icon: "fa-solid fa-paperclip",
-          url: "mailto:jiri.ferkl@protonmail.com",
-          shortUrl: "jiri.ferkl@protonmail.com",
+          url: "mailto:me@jiriferkl.cz",
+          shortUrl: "me@jiriferkl.cz",
         },
         {
           icon: "fa-brands fa-linkedin-in",
