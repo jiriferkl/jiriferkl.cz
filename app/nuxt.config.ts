@@ -1,6 +1,4 @@
-import { defineNuxtConfig } from 'nuxt'
-
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+// https://nuxt.com/docs/getting-started/configuration
 export default defineNuxtConfig({
     modules: [
         '@nuxtjs/tailwindcss'
